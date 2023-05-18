@@ -23,3 +23,13 @@ python -m ipykernel install --user --name=desirelines
 Download and unpack data folder from [https://zenodo.org/record/7288616](https://zenodo.org/record/7288616)
 
 Then, run Jupyter Notebook with kernel desirelines (Kernel > Change Kernel > desirelines)
+
+
+### Experimental Setup on Windows 
+
+```
+conda create -n desirelines python=3.8 -c conda-forge
+conda activate desirelines
+mamba install -c conda-forge numpy pandas matplotlib scikit-learn tqdm scipy dtaidistance opencv basemap
+```
+
